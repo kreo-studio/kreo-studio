@@ -1,0 +1,252 @@
+body{
+	overflow:auto;
+	overflow-x: inherit;
+	/*font-family: "Bradley Hand", Cursive;*/
+	height:300px;
+	background: #888;
+	font-family:'Courier New';
+	font-weight: 700;
+}
+.header{
+	height: 120px;
+	width: 100%;
+	background: #222;
+	color: #888;
+	position: fixed;
+	/*padding: 5%;*/
+	margin-left: -8px;
+	margin-top: -40px;
+	margin-bottom: 10px;
+}
+.logo_txt{
+	color: black;
+	margin-top: -63px;
+	margin-left: 10px;
+	font-size: 65px;
+	text-shadow:  #fdc501 0 0 10px;
+	font-weight: 1000px;
+}
+.img_back{
+	width: 170px;
+	height: 70px;
+	background: #fdc501;
+	margin-left: 1000px;
+	margin-top: 40px;
+	align-content: center;
+}
+.logo_img{
+	width: 170px;
+	height: 75px;
+	padding: 17px;
+	/*margin-top: 10px;*/
+	/*margin-right: 900px;*/
+}
+.line{
+	background: #fdc501;
+	height: 30px;
+	width: 100%;
+	margin-top: 85px;
+	margin-right: -8px;
+	margin-left: -8px;
+	position: fixed;
+	/*overflow: hidden;*/
+}
+.navy{
+	position: fixed;
+	background:#222;            /* #22231c*/
+	width: 200px;
+	min-height: 700px;
+	margin-left: -8px;
+	color: #fdc501;
+	margin-top: 120px;
+}
+.navi{
+	margin-left: -8px;
+}
+.name_navy{
+	font-size: 35px;
+	color:#fdc501;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: -2px;
+}
+.pane_home{
+	padding: 15px;
+	display: block;
+	background: black;
+	margin-bottom: 1px;
+	width: 180px;
+	height: 60px;
+	text-align: center;
+	border-radius: 3px;
+	margin-left: 17px;
+	font-size: 25px;
+}
+.pane_service{
+	padding: 15px;
+	display: block;
+	background: black;
+	margin-bottom: 1px;
+	width: 180px;
+	height: 60px;
+	text-align: center;
+	border-radius: 3px;
+	margin-left: 17px;
+	font-size: 25px;
+}
+.pane_team{
+	padding: 15px;
+	display: block;
+	background: black;
+	margin-bottom: 1px;
+	width: 180px;
+	height: 60px;
+	text-align: center;
+	border-radius: 3px;
+	margin-left: 17px;
+	font-size: 25px;
+}
+.pane_contact{
+	padding: 15px;
+	display: block;
+	background: black;
+	margin-bottom: 1px;
+	width: 180px;
+	height: 60px;
+	text-align: center;
+	border-radius: 3px;
+	margin-left: 17px;
+	font-size: 25px;
+}
+.pane_home:hover{
+	background: #fdc501;
+	color: black;
+	cursor: pointer;
+}
+.pane_service:hover{
+	background: #fdc501;
+	color: black;
+	cursor: pointer;
+}
+.pane_team:hover{
+	background: #fdc501;
+	color: black;
+	cursor: pointer;
+}
+.pane_contact:hover{
+	background: #fdc501;
+	color: black;
+	cursor: pointer;
+}
+a{
+	text-decoration:none;
+	color: #fdc501;
+}
+h2{
+	color:#40E0D0;
+}
+h3{
+	display: inline-block;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+p{
+	color: green;
+	font-size: 30px;
+}
+.form{
+	margin-top: 120px;
+	background: url(hero-bg.jpg);
+	margin-left: 200px;
+	/*margin-right: 300px;*/
+	/*position:inherit;*/
+	width: 1158px;	
+	min-height: 491px;
+}
+.zag_osn{
+	font-size: 25px;
+	text-align: center;
+}
+.txt_osn{
+	padding: 5%;
+}
+*{
+	box-sizing:border-box
+}
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  /*margin-top: 500px;*/
+  padding: 170px;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  /*text-align: center;*/
+  margin-left: 200px;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #fdc501;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
