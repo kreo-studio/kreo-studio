@@ -55,7 +55,7 @@ body{
 	position: fixed;
 	background:#222;            /* #22231c*/
 	width: 200px;
-	min-height: 700px;
+	height: 100%;
 	margin-left: -8px;
 	color: #fdc501;
 	margin-top: 120px;
@@ -161,7 +161,7 @@ p{
 	/*margin-right: 300px;*/
 	/*position:inherit;*/
 	width: 1158px;	
-	min-height: 491px;
+	height:100%;
 }
 .zag_osn{
 	font-size: 25px;
