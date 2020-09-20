@@ -161,8 +161,8 @@ p{
 	/*margin-right: 300px;*/
 	/*position:inherit;*/
 	width: 1158px;	
-	height:100%;
-/* 	min-height:491px; */
+/* 	height:100%; */
+	min-height:491px;
 }
 .zag_osn{
 	font-size: 25px;
